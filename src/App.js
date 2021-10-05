@@ -4,10 +4,8 @@ import { withAuthenticator, AmplifySignOut } from "@aws-amplify/ui-react";
 
 import Interests from "./components/Interests/Interests";
 import Form from "./components/Form/Form";
-import useStyles from "./styles.js";
 
 const App = () => {
-  const classes = useStyles();
   return (
     <Container maxwidth="lg">
       <Grow in>
